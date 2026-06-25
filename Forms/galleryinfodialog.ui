@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GalleryInfoDialog</class>
+ <widget class="QDialog" name="GalleryInfoDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>460</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Про галерею</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>12</number>
+   </property>
+   <property name="leftMargin">
+    <number>18</number>
+   </property>
+   <property name="topMargin">
+    <number>18</number>
+   </property>
+   <property name="rightMargin">
+    <number>18</number>
+   </property>
+   <property name="bottomMargin">
+    <number>18</number>
+   </property>
+   <item>
+    <widget class="QLabel" name="titleLabel">
+     <property name="text">
+      <string>&lt;h2&gt;Galerie de l'Étude&lt;/h2&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTextEdit" name="infoEdit">
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="html">
+      <string>&lt;p&gt;&lt;b&gt;Локація:&lt;/b&gt; Galerie de l'Étude, Париж (France)&lt;/p&gt;&lt;p&gt;&lt;b&gt;Адреса:&lt;/b&gt; 10 Rue de Rivoli, 75001 Paris&lt;/p&gt;&lt;p&gt;&lt;b&gt;Графік роботи:&lt;/b&gt;&lt;br&gt;Пн–Пт: 10:00–19:00&lt;br&gt;Сб: 11:00–17:00&lt;br&gt;Нд: вихідний&lt;/p&gt;&lt;p&gt;Ласкаво просимо на виставку сучасного та класичного мистецтва.&lt;/p&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="closeButton">
+     <property name="text">
+      <string>Закрити</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
